@@ -1,6 +1,6 @@
 #!/bin/bash
 
-folder=$(date +'%m-%d-%Y')
+folder=$(date +'%m-%d-%Y_%H-%M')
 mkdir $folder
 cd $folder
 touch readme.md
